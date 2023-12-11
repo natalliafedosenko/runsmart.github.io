@@ -1,0 +1,61 @@
+@media (max-width: 1200px){
+    .container{
+        max-width: 850px;
+    }
+}
+@media (max-width: 991px){
+    .container{
+        max-width: 750px;
+    }
+}
+	
+@media (max-width: 767px){
+    .container{
+        max-width: 670px;
+        .advantages__wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: stretch;
+        }
+        .advantages__item {
+            margin-top: 20px;
+            min-width: 400px;
+            
+        }
+    }
+}
+	
+@media (max-width: 575px){
+    .container{
+        max-width: 550px;
+        .promo__icons{
+            display: none;
+        }
+        .promo__header{
+            font-size: 30px;
+            font-weight: 500;
+        }
+        .promo__subheader{
+            font-size: 18px;
+        }
+        .header__phone{
+            font-size: 14px;
+            font-weight: 400;
+        }
+        .header__official{
+            span{
+                font-size: 13px;
+            }
+        }
+        .title{
+            font-size: 20px;
+            font-weight: 500;
+    }
+}}
+	
+				
+				
+
+				
