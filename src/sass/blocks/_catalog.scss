@@ -38,10 +38,14 @@
         }
     &__content{
         margin-top: 60px;
-        display: flex;
+        display: none;
         justify-content: space-between;
         flex-wrap: wrap;
+        &_active{
+            display: flex;
+        }
     }
+
     &-item{
         width: 300px;
         min-height: 440px;
@@ -79,7 +83,8 @@
             text-decoration: underline;
             text-transform: uppercase;
             &:hover{
-                color: $main-color;
+               color: $main-color;
+               text-decoration: none;
             }    
     }
         hr{
@@ -162,7 +167,8 @@
             text-transform: uppercase;
             &:hover{
                 color: $main-color;
+                text-decoration: none;
             }
         }
         }
-    }
+}
